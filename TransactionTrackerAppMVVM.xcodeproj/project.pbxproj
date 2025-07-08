@@ -6,47 +6,86 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4FCF91AD7AB5D73789EFF388 /* Pods_TransactionTrackerAppMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126CC1443D73CBA93CCA575E /* Pods_TransactionTrackerAppMVVM.framework */; };
+		BEEA9CFB2E1CEEB300522E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9CF02E1CEEB300522E75 /* Assets.xcassets */; };
+		BEEA9CFD2E1CEEB300522E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9CF32E1CEEB300522E75 /* LaunchScreen.storyboard */; };
+		BEEA9CFF2E1CEEB300522E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9CEF2E1CEEB300522E75 /* AppDelegate.swift */; };
+		BEEA9D002E1CEEB300522E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9CF62E1CEEB300522E75 /* SceneDelegate.swift */; };
+		BEEA9D012E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9CF72E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodeld */; };
+		BEEA9D0C2E1CEF5000522E75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D0B2E1CEF5000522E75 /* HomeViewController.swift */; };
+		BEEA9D0E2E1CEF5900522E75 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9D0D2E1CEF5900522E75 /* HomeViewController.storyboard */; };
+		BEEA9D112E1CF00100522E75 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D102E1CEFFF00522E75 /* FireBaseManager.swift */; };
+		BEEA9D132E1CF13200522E75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9D122E1CF13200522E75 /* GoogleService-Info.plist */; };
+		BEEA9D152E1CF27300522E75 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D142E1CF27200522E75 /* Transaction.swift */; };
+		BEEA9D172E1CF2B700522E75 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D162E1CF2B500522E75 /* TransactionViewModel.swift */; };
+		BEEA9D1B2E1CF4B700522E75 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D192E1CF4B700522E75 /* TransactionCell.swift */; };
+		BEEA9D1C2E1CF4B700522E75 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9D1A2E1CF4B700522E75 /* TransactionCell.xib */; };
+		BEEA9D1F2E1CF58800522E75 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D1D2E1CF58800522E75 /* Common.swift */; };
+		BEEA9D212E1CF77F00522E75 /* AddTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA9D202E1CF77F00522E75 /* AddTransactionController.swift */; };
+		BEEA9D232E1CF79300522E75 /* AddTransactionController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEA9D222E1CF79200522E75 /* AddTransactionController.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		126CC1443D73CBA93CCA575E /* Pods_TransactionTrackerAppMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionTrackerAppMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8D8AC32E96F8785C2B5628 /* Pods-TransactionTrackerAppMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionTrackerAppMVVM.debug.xcconfig"; path = "Target Support Files/Pods-TransactionTrackerAppMVVM/Pods-TransactionTrackerAppMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		7CE25803F111B4E56C4F272B /* Pods-TransactionTrackerAppMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionTrackerAppMVVM.release.xcconfig"; path = "Target Support Files/Pods-TransactionTrackerAppMVVM/Pods-TransactionTrackerAppMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		BEEA9CD42E1CEEAA00522E75 /* TransactionTrackerAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionTrackerAppMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEA9CEF2E1CEEB300522E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEEA9CF02E1CEEB300522E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEA9CF12E1CEEB300522E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEA9CF22E1CEEB300522E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEEA9CF62E1CEEB300522E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEEA9CFA2E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransactionTrackerAppMVVM.xcdatamodel; sourceTree = "<group>"; };
+		BEEA9D0B2E1CEF5000522E75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEEA9D0D2E1CEF5900522E75 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		BEEA9D102E1CEFFF00522E75 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		BEEA9D122E1CF13200522E75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEEA9D142E1CF27200522E75 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BEEA9D162E1CF2B500522E75 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		BEEA9D192E1CF4B700522E75 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		BEEA9D1A2E1CF4B700522E75 /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		BEEA9D1D2E1CF58800522E75 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BEEA9D202E1CF77F00522E75 /* AddTransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionController.swift; sourceTree = "<group>"; };
+		BEEA9D222E1CF79200522E75 /* AddTransactionController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTransactionController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEEA9CE92E1CEEAC00522E75 /* Exceptions for "TransactionTrackerAppMVVM" folder in "TransactionTrackerAppMVVM" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEEA9CD32E1CEEAA00522E75 /* TransactionTrackerAppMVVM */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEEA9CD62E1CEEAA00522E75 /* TransactionTrackerAppMVVM */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEEA9CE92E1CEEAC00522E75 /* Exceptions for "TransactionTrackerAppMVVM" folder in "TransactionTrackerAppMVVM" target */,
-			);
-			path = TransactionTrackerAppMVVM;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEEA9CD12E1CEEAA00522E75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCF91AD7AB5D73789EFF388 /* Pods_TransactionTrackerAppMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402FA158499DCF6735301DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D8AC32E96F8785C2B5628 /* Pods-TransactionTrackerAppMVVM.debug.xcconfig */,
+				7CE25803F111B4E56C4F272B /* Pods-TransactionTrackerAppMVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98CE5844B093DEEDCFE39758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126CC1443D73CBA93CCA575E /* Pods_TransactionTrackerAppMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEEA9CCB2E1CEEAA00522E75 = {
 			isa = PBXGroup;
 			children = (
-				BEEA9CD62E1CEEAA00522E75 /* TransactionTrackerAppMVVM */,
+				BEEA9CF92E1CEEB300522E75 /* TransactionTrackerAppMVVM */,
 				BEEA9CD52E1CEEAA00522E75 /* Products */,
+				402FA158499DCF6735301DAB /* Pods */,
+				98CE5844B093DEEDCFE39758 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +97,110 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BEEA9CF92E1CEEB300522E75 /* TransactionTrackerAppMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D032E1CEEC200522E75 /* System */,
+				BEEA9D052E1CEEF200522E75 /* Helper */,
+				BEEA9D062E1CEEFC00522E75 /* Model */,
+				BEEA9D072E1CEF0700522E75 /* View */,
+				BEEA9D082E1CEF0D00522E75 /* ViewModel */,
+				BEEA9CF02E1CEEB300522E75 /* Assets.xcassets */,
+				BEEA9CF12E1CEEB300522E75 /* Info.plist */,
+				BEEA9CF32E1CEEB300522E75 /* LaunchScreen.storyboard */,
+				BEEA9CF72E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodeld */,
+				BEEA9D122E1CF13200522E75 /* GoogleService-Info.plist */,
+			);
+			path = TransactionTrackerAppMVVM;
+			sourceTree = "<group>";
+		};
+		BEEA9D032E1CEEC200522E75 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9CEF2E1CEEB300522E75 /* AppDelegate.swift */,
+				BEEA9CF62E1CEEB300522E75 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BEEA9D052E1CEEF200522E75 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D102E1CEFFF00522E75 /* FireBaseManager.swift */,
+				BEEA9D1E2E1CF58800522E75 /* Common */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BEEA9D062E1CEEFC00522E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D142E1CF27200522E75 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEEA9D072E1CEF0700522E75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D182E1CF49800522E75 /* Cell */,
+				BEEA9D092E1CEF1900522E75 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEEA9D082E1CEF0D00522E75 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D162E1CF2B500522E75 /* TransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEEA9D092E1CEF1900522E75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D0A2E1CEF4000522E75 /* Home */,
+				BEEA9D0F2E1CEFB400522E75 /* AddTransaction */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEEA9D0A2E1CEF4000522E75 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D0B2E1CEF5000522E75 /* HomeViewController.swift */,
+				BEEA9D0D2E1CEF5900522E75 /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BEEA9D0F2E1CEFB400522E75 /* AddTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D202E1CF77F00522E75 /* AddTransactionController.swift */,
+				BEEA9D222E1CF79200522E75 /* AddTransactionController.storyboard */,
+			);
+			path = AddTransaction;
+			sourceTree = "<group>";
+		};
+		BEEA9D182E1CF49800522E75 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D192E1CF4B700522E75 /* TransactionCell.swift */,
+				BEEA9D1A2E1CF4B700522E75 /* TransactionCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BEEA9D1E2E1CF58800522E75 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA9D1D2E1CF58800522E75 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +208,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEEA9CEA2E1CEEAC00522E75 /* Build configuration list for PBXNativeTarget "TransactionTrackerAppMVVM" */;
 			buildPhases = (
+				68E17128599312CA894DEB0E /* [CP] Check Pods Manifest.lock */,
 				BEEA9CD02E1CEEAA00522E75 /* Sources */,
 				BEEA9CD12E1CEEAA00522E75 /* Frameworks */,
 				BEEA9CD22E1CEEAA00522E75 /* Resources */,
+				0AEA7E2CF543E0D12EE3F0EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BEEA9CD62E1CEEAA00522E75 /* TransactionTrackerAppMVVM */,
-			);
 			name = TransactionTrackerAppMVVM;
-			packageProductDependencies = (
-			);
 			productName = TransactionTrackerAppMVVM;
 			productReference = BEEA9CD42E1CEEAA00522E75 /* TransactionTrackerAppMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -122,24 +262,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEA9CFB2E1CEEB300522E75 /* Assets.xcassets in Resources */,
+				BEEA9CFD2E1CEEB300522E75 /* LaunchScreen.storyboard in Resources */,
+				BEEA9D0E2E1CEF5900522E75 /* HomeViewController.storyboard in Resources */,
+				BEEA9D232E1CF79300522E75 /* AddTransactionController.storyboard in Resources */,
+				BEEA9D132E1CF13200522E75 /* GoogleService-Info.plist in Resources */,
+				BEEA9D1C2E1CF4B700522E75 /* TransactionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEA7E2CF543E0D12EE3F0EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TransactionTrackerAppMVVM/Pods-TransactionTrackerAppMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TransactionTrackerAppMVVM/Pods-TransactionTrackerAppMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransactionTrackerAppMVVM/Pods-TransactionTrackerAppMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E17128599312CA894DEB0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransactionTrackerAppMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEEA9CD02E1CEEAA00522E75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEA9CFF2E1CEEB300522E75 /* AppDelegate.swift in Sources */,
+				BEEA9D002E1CEEB300522E75 /* SceneDelegate.swift in Sources */,
+				BEEA9D152E1CF27300522E75 /* Transaction.swift in Sources */,
+				BEEA9D012E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodeld in Sources */,
+				BEEA9D212E1CF77F00522E75 /* AddTransactionController.swift in Sources */,
+				BEEA9D1F2E1CF58800522E75 /* Common.swift in Sources */,
+				BEEA9D0C2E1CEF5000522E75 /* HomeViewController.swift in Sources */,
+				BEEA9D112E1CF00100522E75 /* FireBaseManager.swift in Sources */,
+				BEEA9D1B2E1CF4B700522E75 /* TransactionCell.swift in Sources */,
+				BEEA9D172E1CF2B700522E75 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		BEEA9CF32E1CEEB300522E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEA9CF22E1CEEB300522E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		BEEA9CEB2E1CEEAC00522E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8D8AC32E96F8785C2B5628 /* Pods-TransactionTrackerAppMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,11 +357,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TransactionTrackerAppMVVM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionTracker;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -167,6 +379,7 @@
 		};
 		BEEA9CEC2E1CEEAC00522E75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE25803F111B4E56C4F272B /* Pods-TransactionTrackerAppMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -174,11 +387,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TransactionTrackerAppMVVM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionTracker;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -229,7 +444,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -292,7 +507,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -333,6 +548,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEEA9CF72E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEEA9CFA2E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodel */,
+			);
+			currentVersion = BEEA9CFA2E1CEEB300522E75 /* TransactionTrackerAppMVVM.xcdatamodel */;
+			path = TransactionTrackerAppMVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BEEA9CCC2E1CEEAA00522E75 /* Project object */;
 }
